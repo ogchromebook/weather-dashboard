@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/styles.css">
   </head>
   <body>
     <header>
@@ -14,7 +15,7 @@
         <form id="cityForm">
           <label for="searchCity">Search for a city:</label>
           <input type="text" id="searchCity" name="searchCity" required/>
-          <button type="submit">Submit</button>
+          <button type="submit">Search</button>
         </form>
 
         <div id="savedCity"></div>
@@ -23,6 +24,7 @@
       <div id="weatherData">
         <div id="currentWeather"></div>
         <div id="fiveDayWeather">
+          <h3>Five Day Weather Forecast:</h3>
           <div id="cityCards"></div>
         </div>
       </div>

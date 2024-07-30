@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: blue;
+}
+
+h1 {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 25%;
+    padding: 20px;
+}
+
+#weatherData {
+    width: 75%;
+    padding: 20px;
+}
+
+#currentWeather {
+    max-width:fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-style: groove;
+    border-color: blue;
+    padding: 5px;
+}
+
+#fiveDayWeather {
+    max-width:fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-style: groove;
+    border-color: blue;
+    padding: 5px; 
+}
+
+#cityCards {
+    display: flex;
+    flex-direction: row;
+    border-style: groove;
+    border-color: blue;
+}
+
+label {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: blue;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+
+#cityForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
