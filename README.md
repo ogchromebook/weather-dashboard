@@ -4,7 +4,7 @@
 
 The Weather Dashboard is a web application that provides users with real-time weather data, including current conditions and a five-day forecast for any city. The motivation behind this project was to create an intuitive and responsive interface for quickly accessing weather information. It was built to solve the problem of obtaining accurate and up-to-date weather data in a user-friendly format. Through this project, I learned how to integrate third-party APIs, dynamically update the DOM, and manage layout with CSS flexbox.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
