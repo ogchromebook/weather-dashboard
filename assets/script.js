@@ -1,5 +1,3 @@
-// API KEY 696646672dc39fefaf604c403e03813a
-
 const weatherForm = document.getElementById("cityForm");
 const searchCity = document.getElementById("searchCity");
 const currentWeather = document.getElementById("currentWeather");
